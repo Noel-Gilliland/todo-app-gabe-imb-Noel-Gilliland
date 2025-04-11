@@ -49,6 +49,20 @@ class Todo:
         else:
             print(f"Task '{task}' not found.")
 
+     def delete_all(self) -> None:
+    	"""Delete all tasks from the list.
+    	
+    	Args: 
+    	    None
+    	   
+    	Note:
+    	    Will delete all tasks from the list
+    	"""
+    	if not self.tasks:
+    	    print("List is already empty")
+    	else
+    	    self.test = []
+
     def show_tasks(self) -> None:
         """Display all current tasks in a numbered list.
 
